@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wallpaper Pack Shop</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: #f0f0f0;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background: #4a90e2;
+      color: white;
+      padding: 2rem 0;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .preview-images {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    .preview-images img {
+      width: 150px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+    .buy-button {
+      background: #28a745;
+      color: white;
+      border: none;
+      padding: 1rem 2rem;
+      font-size: 1.2rem;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .buy-button:hover {
+      background: #218838;
+    }
+    footer {
+      margin-top: 3rem;
+      color: #555;
+      font-size: 0.9rem;
+      padding: 1rem 0;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Exclusive Wallpaper Pack</h1>
+</header>
+
+<div class="container">
+  <p>Get 10 high-quality phone wallpapers for $5. Perfect for iPhone or Android!</p>
+  
+  <div class="preview-images">
+    <img src="https://via.placeholder.com/150x300?text=Wallpaper+1" alt="Wallpaper 1">
+    <img src="https://via.placeholder.com/150x300?text=Wallpaper+2" alt="Wallpaper 2">
+    <img src="https://via.placeholder.com/150x300?text=Wallpaper+3" alt="Wallpaper 3">
+    <img src="https://via.placeholder.com/150x300?text=Wallpaper+4" alt="Wallpaper 4">
+  </div>
+
+  <!-- Stripe Payment Button -->
+  <a class="buy-button" href="https://buy.stripe.com/test_XXXXXXXXXXXX" target="_blank">
+    Buy Now - $5
+  </a>
+</div>
+
+<footer>
+  &copy; 2025 Your Name. All rights reserved.
+</footer>
+
+</body>
+</html>
